@@ -33,7 +33,7 @@ def CollectStudentData():
 def DisplayStudentData(students):
     print(f"\nStudent data (sorted by age), you have {len(students)} students:")
 
-    for student in sorted(students, key=lambda s: s.age):
+    for student in sorted(students, key=lambda s: (s.name, s.age)):
         print(student.GetData())
 
 if __name__ == "__main__":
