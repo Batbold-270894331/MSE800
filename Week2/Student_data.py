@@ -31,7 +31,7 @@ def CollectStudentData():
     return students
 
 def DisplayStudentData(students):
-    print("\nStudent data (sorted by age):")
+    print(f"\nStudent data (sorted by age), you have {len(students)} students:")
 
     for student in sorted(students, key=lambda s: s.age):
         print(student.GetData())
