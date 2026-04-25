@@ -12,7 +12,7 @@ def CollectStudentData():
 
     count = 0
     students = []
-
+    
     while True:
         name = input("Name: ")
 
