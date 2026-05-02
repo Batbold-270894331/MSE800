@@ -1,5 +1,5 @@
 from database import create_tables
-from user_manager import add_user, view_users, search_user, delete_user
+##from user_manager import add_user, view_users, search_user, delete_user
 
 def main():
     create_tables()
