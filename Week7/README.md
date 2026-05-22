@@ -51,22 +51,6 @@ dog = factory.create_product()
 dog.run()
 ```
 
-However, `DogFactory.create_product()` contains only `pass`, so it returns `None`.
-
-Therefore, `dog.run()` causes an error:
-
-```text
-AttributeError: 'NoneType' object has no attribute 'run'
-```
-
-The code will work when `DogFactory.create_product()` returns a `Dog` object:
-
-```python
-class DogFactory(Factory):
-    def create_product(self, kind=None):
-        return Dog()
-```
-
 Then the output will be:
 
 ```text
