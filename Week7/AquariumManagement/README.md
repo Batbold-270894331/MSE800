@@ -33,6 +33,7 @@ Purpose:
 Example:
 ```python
 fish = FishFactory.create_fish("Shark")
+```
 
 ---
 
@@ -47,19 +48,21 @@ Purpose:
 
 Example:
 ```python
-def __new__(cls):
+    def __new__(cls):
 
-        if cls.__instance is None:
-            cls.__instance = super(Aquarium, cls).__new__(cls)
+            if cls.__instance is None:
+                cls.__instance = super(Aquarium, cls).__new__(cls)
 
-            # Initialize inventory once
-            cls.__instance.fish_inventory = {}
+                # Initialize inventory once
+                cls.__instance.fish_inventory = {}
 
-        return cls.__instance
+            return cls.__instance
+```
 
 Example of usage:
 ```python
 aquarium = Aquarium()
+```
 
 ---
 
@@ -68,3 +71,4 @@ aquarium = Aquarium()
 ## 3. Run the program
 ```python
 python main.py
+```
