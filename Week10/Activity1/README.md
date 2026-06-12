@@ -2,6 +2,8 @@
 
 The System is a secure web application that manages user accounts, authentication, authorization, and user administration. The system implements Role-Based Access Control with three roles: Admin, Employee, and User.
 
+```
+
 Main
 │
 ├── Authentication
@@ -26,6 +28,7 @@ Main
     ├── Employee
     └── User
 
+```
 ---
 
 # Features
