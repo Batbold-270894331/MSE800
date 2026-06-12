@@ -3,7 +3,6 @@
 The System is a secure web application that manages user accounts, authentication, authorization, and user administration. The system implements Role-Based Access Control with three roles: Admin, Employee, and User.
 
 ```
-
 Main
 │
 ├── Authentication
@@ -27,13 +26,28 @@ Main
     ├── Admin
     ├── Employee
     └── User
-
 ```
 ---
 
 # Features
 
 ## Authentication
+
+### Signup
+The Signup feature allows new users to create an account and access the system.
+
+Functionality:
+
+Enter Full Name
+Enter Date of Birth
+Enter Email Address
+Enter Password
+Select User Role (Admin creates Employee/User accounts)
+Validate user information
+Check for duplicate email addresses
+Encrypt password before storing
+Save user information in the database
+Redirect user to the Login page after successful registration
 
 ### Login
 Users can log in using their registered email address and password.
