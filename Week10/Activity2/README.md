@@ -108,8 +108,8 @@ The `main.py` file starts the application.
 
 ### Game Screenshot
 
-![Tic-tac-toe Game Screenshot](screenshot.png)
+![Tic-tac-toe Game Screenshot](screenshot.PNG)
 
 ### Pylint Result
 
-![Pylint Result Screenshot](pylint.png)
+![Pylint Result Screenshot](pylint.PNG)
