@@ -86,7 +86,6 @@ The `TicTacToeGame` class controls the main game flow.
 
 The `main.py` file starts the application.
 
-
 ## Main Classes and Methods
 
 | Class           | Method               | Description                            |
