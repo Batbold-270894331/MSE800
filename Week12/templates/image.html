@@ -14,23 +14,6 @@
 
         <div id="gallery"></div>
 
-        <div id="gallery">
-
-            {% for img in images %}
-                <div id="img-{{ loop.index }}" style="display:inline-block; margin:10px; text-align:center;">
-
-                    <img src="/uploads/{{ img }}" width="200"><br>
-
-                    <button onclick="deleteImage('{{ img }}', {{ loop.index }})"
-                            style="background:red;color:white;border:none;padding:5px;">
-                        Delete
-                    </button>
-
-                </div>
-            {% endfor %}
-
-        </div>
-
     <script>
 
         //================= LOAD IMAGES =================
